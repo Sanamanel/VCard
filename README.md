@@ -1,3 +1,3 @@
 # VCard
 Virtual card
-https://sanamanel.github.io/My-CV/
+https://sanamanel.github.io/VCard/
