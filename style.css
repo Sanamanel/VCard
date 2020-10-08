@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 181, 195, 0.3);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  height: 150vh;
+}
+.btn-sticky {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 12px 20px;
+  background-color: #00b5c3;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.3s ease-in;
+}
+.btn-sticky:hover {
+  background: transparent;
+  color: #00b5c3;
+  border: 2px solid #00b5c3;
+}
+
+.card-contenair {
+  width: 320px;
+  height: 460px;
+  background-color: white;
+  border-radius: 6px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 1px #000;
+  overflow: hidden;
+  display: inline-block;
+}
+.upper-contenair {
+  height: 150px;
+  background-color: #0a1c2f;
+}
+.img-contenair {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(100px, 100px);
+}
+.img-contenair img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.lower-contenair {
+  height: 319px;
+  background-color: white;
+  padding: 20px;
+  padding-top: 60px;
+  text-align: center;
+}
+.lower-contenair h3,
+h4 {
+  box-sizing: border-box;
+  line-height: 0.6;
+  font-weight: 300;
+}
+.lower-contenair h4 {
+  color: #00b5c3;
+  opacity: 0.6;
+  font-weight: 400;
+}
+.lower-contenair p {
+  font-size: 1em;
+  color: gray;
+  margin-bottom: 30px;
+}
+.lower-contenair .btn {
+  padding: 12px 20px;
+  background-color: #00b5c3;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.3s ease-in;
+}
+.lower-contenair .btn:hover {
+  background: transparent;
+  color: #00b5c3;
+  border: 2px solid #00b5c3;
+}
+.social-list {
+  display: flex; /*change align icon in column */
+  justify-content: space-around; /* space between icon */
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+  width: 125px;
+  margin: 0 auto; /* pour centrer */
+}
+.social-link {
+  color: #00b5c3;
+  opacity: 0.4;
+  font-size: 1.5em;
+}
+.social-link:hover,
+.social-link:focus {
+  opacity: 1;
+}
+.fab {
+  color: #00b5c3;
+}
